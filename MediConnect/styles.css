@@ -1,0 +1,22 @@
+body {
+    background-image: url("img/bac.jpg"); /* Use url() to specify the path to the image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+.logo {
+    width: 150px; /* Decrease the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Reduce margin to separate from form */
+    animation: logoAnimation 1s ease-in-out infinite alternate; /* Add animation */
+}
+
+@keyframes logoAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
